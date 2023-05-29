@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background: #0c1e2d;
+    background-size: cover;
+    font-family: Verdana;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
+
+form{
+    background: #ffffff02;
+    height: 800px;
+    width: 550px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 20px 20px 50px #0707077c;
+    backdrop-filter: blur(5px);
+    font-size: 15px;
+}
+
+p, label{
+    font-family: 'Segoe UI', Tahoma;
+}
+
+.input_bar{
+    background: none;
+    height: 25px;
+    width: 400px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px 0 10px 0;
+    padding: 2px;
+    margin-top: 5px;
+}
+
+form input[type='email']{
+    background: #eeeeee;
+    color: #214c70;
+}
+
+.input_bar:focus{
+    outline: none;
+}
+
+.inputNum{
+    background: none;
+    color: #ffffff;
+    height: 25px;
+    width: 200px;
+    border: none;
+    border-radius: 10px 0 10px 0;
+    border: 1px solid #ffffff;
+    padding: 2px;
+    margin-top: 5px;
+}
+
+.inputNum:focus{
+    outline: none;
+}
+
+.inputSelect{
+    background: none;
+    color: #ffffff;
+    height: 25px;
+    width: 200px;
+    border-radius: 10px 0 10px 0;
+    border: none;
+    border: 1px solid #ffffff;
+}
+
+.inputSelec:hover{
+    color: #000;
+}
+
+.inputSelect:focus{
+    outline: none;
+}
+
+.textArea{
+    background: none;
+    color: #ffffff;
+    height: 75px;
+    width: 300px;
+    resize: none;
+    padding: 5px;
+    border-radius: 15px 0 15px 0;
+    margin-top: 5px;
+    border: 1px solid #ffffff;
+}
+
+.textArea:focus{
+    outline: none;
+}
+
+.terminos{
+    height: 25px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputBoton{
+    background: none;
+    color: #ffffff;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border: 3px solid #fd6969;
+    transition: all 0.5s; 
+}
+
+.inputBoton:hover{
+    transition: all 0.5s; 
+    background-color: #fd6969;
+}
+
+.inputBoton:focus{
+    transition: all 0.5s; 
+    background-color: #6b6969;
+    border: 3px solid #c51515;
+}
+
+
